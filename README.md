@@ -22,11 +22,11 @@ The project is structured into several key steps:
 
 ### 4. **Additional Experimentation**
    The following variations were explored, and MSR (Mean Squared Residuals) and R-squared values were reported for both training and test datasets:
-   - Use rows 2 to 41 for training and rows 42 to 51 for testing with \( \lambda = 0.83 \).
-   - Use rows 2 to 26 for training and rows 27 to 51 for testing with \( \lambda = 0.17 \).
-   - Use rows 2 to 26 for training and rows 27 to 51 for testing with \( \lambda = 0.83 \).
-   - Use rows 2 to 11 for training and rows 12 to 51 for testing with \( \lambda = 0.17 \).
-   - Use rows 2 to 11 for training and rows 12 to 51 for testing with \( \lambda = 0.83 \).
+   - Use rows 2 to 41 for training and rows 42 to 51 for testing with \( lambda = 0.83 \).
+   - Use rows 2 to 26 for training and rows 27 to 51 for testing with \( lambda = 0.17 \).
+   - Use rows 2 to 26 for training and rows 27 to 51 for testing with \( lambda = 0.83 \).
+   - Use rows 2 to 11 for training and rows 12 to 51 for testing with \( lambda = 0.17 \).
+   - Use rows 2 to 11 for training and rows 12 to 51 for testing with \( lambda = 0.83 \).
 
 ## Requirements
 
