@@ -53,6 +53,30 @@ pip install scikit-learn
       - `mean_squared_error`: For computing the MSR (Mean Squared Residuals).
       - `r2_score`: For computing the R-squared value, measuring the model's goodness of fit.
 
+## Key Steps in the Analysis
+
+### Newton Method
+
+The Newton method involves calculating weights **w** by performing the following matrix computation on the training data (rows 2 to 41):
+
+`w = (X^T * X)^(-1) * X^T * y`
+
+### Regularized Newton Method
+
+In the regularized Newton method, we introduce a regularization parameter \( \lambda \) to penalize large weights and reduce overfitting. The matrix computation for the regularized Newton method is:
+
+`w = (X^T * X + λ * I)^(-1) * X^T * y`
+
+Here, different values of **λ** were used to experiment with the regularization effect.
+
+### Error Metrics and R-squared
+
+For both methods (regularized and non-regularized), the following metrics were computed on the training and test datasets:
+
+- **SSR**: Sum of Squared Residuals, measuring the total squared difference between predicted and actual values.
+- **MSR**: Mean Squared Residuals, the average of the squared residuals.
+- **RMSE**: Root Mean Squared Error, the square root of MSR, representing the error in the same units as the target variable.
+- **R-squared**: A measure of how well the regression model fits the data.
 
 
 
